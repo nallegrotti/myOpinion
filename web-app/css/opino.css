@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+li:hover{
+	background-color: #F8F8F8;
+}
+.fechaCls{
+	font-size: 10px;
+    font-style: italic;
+    padding-top: 20px;
+}
+.opinionCls{
+	padding: 10px;
+}
+#nuevaOpinion textarea{
+	width: 100%;
+}
