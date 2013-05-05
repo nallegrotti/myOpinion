@@ -8,6 +8,8 @@ class OpinionService {
     def getOpiniones(){
 		Opinion.withCriteria {
 			maxResults 500
+			order 'puntos', 'desc'
+			order 'lastUpdated', 'desc'
 		}
 	}
 
