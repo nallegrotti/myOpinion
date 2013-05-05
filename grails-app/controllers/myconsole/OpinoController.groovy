@@ -10,8 +10,8 @@ class OpinoController {
 	}
 
 	def que = { params ->
-		def opiniones = Opinion.list().sort {(new Date().time - it.lastUpdated.time)/1000*60*60 + (it.puntos?:0)}
-		render view: 'opinoQue' , model:[opiniones:opiniones]
+//		def opiniones = Opinion.list().sort {(new Date().time - it.lastUpdated.time)/1000*60*60 + (it.puntos?:0)}
+		render view: 'opinoQue' , model:[opiniones:opinionService.opiniones]
 	}
 
 	def queSave = { params ->
