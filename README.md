@@ -15,6 +15,13 @@ Funcionalidad pendiente:
   * Markup de links en forma automática
   * Busqueda automática de imagenes
 
+Secciones:
+_
+Basado en el dominio reservado: yaqueesgratis.com.ar
+  * Opino: funcionalidad actual
+  * Pregunto: Preguntas y respuestas
+  * Me lo llevo/Me lo saco de encima: Negociaciones a título gratuito. Ej: Me sobran 20 ladrillos, ¿quién se los lleva? (No se paga por publicar, no se paga por llevarse algo, todo se regala)
+
 Funcionalidad que no va a existir nunca:
 -
   * Login
