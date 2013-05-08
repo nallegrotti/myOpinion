@@ -5,12 +5,16 @@ import static java.lang.Math.*
 class OpinionService {
 	def grailsApplication
 
+	def antiguedadEnDias( fecha ){
+		double antiguedad = System.currentTimeMillis() - fecha.time
+		antiguedad / (1000D*60D*60D)
+	}
+
     def getOpiniones(){
-		Opinion.withCriteria {
-			maxResults 500
-			order 'puntos', 'desc'
-			order 'lastUpdated', 'desc'
+		def res = Opinion.list().sort {
+			antiguedadEnDias(it.lastUpdated) - (it.puntos?:0)
 		}
+		res[0..min(499, res.size()-1)]
 	}
 
 	def getRandomName(){
