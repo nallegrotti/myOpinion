@@ -16,7 +16,7 @@ Funcionalidad pendiente:
   * Busqueda automática de imagenes
 
 Secciones:
-_
+-
 Basado en el dominio reservado: yaqueesgratis.com.ar
   * Opino: funcionalidad actual
   * Pregunto: Preguntas y respuestas
@@ -25,3 +25,8 @@ Basado en el dominio reservado: yaqueesgratis.com.ar
 Funcionalidad que no va a existir nunca:
 -
   * Login
+
+Consideraciones técnicas:
+-
+Dominio: yaQueEsGratis.com.ar 
+dns: freedns.afraid.org (usr: nallegrotti)
